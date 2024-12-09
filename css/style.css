@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-big {
+    width: 1280px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.wrapper-header {
+    background-color: #1f1f56;
+}
+
+.text-header {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: "Arial";
+    padding: 23px 0;
+}
+
+.a-header:hover {
+    color: #fd8300;
+}
+
+.a-header {
+    color: #b1b1d2;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.ulka {
+    list-style: none;
+    column-gap: 28px;
+}
+
+.tw {
+    padding:3px;
+}
+
+.p-a {
+    padding-left: 18px;
+}
+
+.phone a {
+    padding-left: 11px;
+}
+
+.a-tel {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.ul-phone {
+    padding-left: 46px;
+}
+
+.phone ul {
+    list-style: none;
+}
+
+.email ul {
+    list-style: none;
+}
+
+.ul-email {
+    padding-left: 60px;
+}
+
+.tel {
+    padding-left:10px;
+}
+
+.hover {
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+.hover:hover {
+    color:#fd8300;
+}
+
+.a-tl {
+    padding-left: 18px;
+}
+
+.a-email {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+    
+}
+
+.flex-stretch {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-email {
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+.img-button {
+    padding-left: 50px;
+}
+
+.photoss {
+   padding-top: 23px;
+}
+
+.zamovit {
+    border: 2px solid #fd8300;
+    border-radius: 25px;
+}
+
+.zamovit-p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    padding: 17px 31px;
+}
+
+.camovit {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.photo-img {
+    background: black url(../img/picture.webp) no-repeat center/cover;
+}
+
+.orange-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 59px;
+    padding-bottom: 44px;
+}
+
+.wrapper-main {
+    padding: 36px 0;
+    display: flex;
+}
+
+.photo-img-p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.photo-img-p1 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+
+.photo-img-p2 {
+    font-size: 40px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.h1 {
+    font-size: 30px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 28px;
+}
+main {
+    padding-top: 42px;
+}
+
+.text {
+    max-width: 677px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+    padding-bottom: 21px;
+}
+
+.a-detals {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.popular-projects {
+    padding-top: 67px;
+}
+
+.h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 24px;
+}
+
+.p-plosha {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.h4-first {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.h4-second {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.category {
+    border-radius: 3px;
+    background-color: #1f1f56;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding: 10.5px 16px;
+}
+
+.submenu {
+    display: none;
+}
+
+.aside-menu a {
+    padding: 10.5px 16px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    background-color: #e4e4ec;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.aside-menu ul {
+    list-style: none;
+}
+
+.aside-menu {
+    min-width: 220px;
+}
+
+.aside-menu a {
+    text-decoration: none;
+}
+
+.aside-menu li:hover > .submenu {
+    display: block 
+}
+
+.aside-menu li:hover > a {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.submenu a {
+    padding-left: 30px;
+    color: #666;
+}
+
+.submenu li:hover > a {
+    background-color: #cecedd;
+    color: #666;
+}
+
+main {
+    column-gap: 28px;
+}
+
+footer {
+    background-color: #ededf5;
+}
+
+.infooter {
+    padding-top: 42px;
+    padding-bottom: 29px;
+}
+
+.ulkaa {
+    list-style: none;
+}
+
+.just {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.underfooter {
+    background-color: #dcdce6;
+    padding: 18px 0;
+}
+
+.underfooter p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+}
+
+main {
+    padding-bottom: 46px;
+}
