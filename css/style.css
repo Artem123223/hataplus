@@ -140,7 +140,10 @@
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
-    padding: 17px 31px;
+}
+
+.skype {
+    text-decoration: none;
 }
 
 .camovit {
@@ -149,6 +152,8 @@
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
+    padding: 17px 31px;
+    display: block;
 }
 
 .photo-img {
@@ -176,6 +181,13 @@
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
+}
+
+span {
+    font-size: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
 }
 
 .photo-img-p1 {
@@ -221,8 +233,10 @@ main {
     font-family: "Arial";
 }
 
-.popular-projects {
-    padding-top: 67px;
+.hr {
+    background-color: #e4e4ec;
+    width: 100%;
+    margin: 33px 0;
 }
 
 .h2 {
@@ -232,6 +246,10 @@ main {
     font-weight: 700;
     font-family: "Roboto Slab";
     padding-bottom: 24px;
+}
+
+.popular-projects a {
+    text-decoration: none;  
 }
 
 .p-plosha {
@@ -259,7 +277,7 @@ main {
 }
 
 .category {
-    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
     background-color: #1f1f56;
     font-size: 16px;
     line-height: 24px;
@@ -286,6 +304,10 @@ main {
 
 .aside-menu ul {
     list-style: none;
+}
+
+.aside {
+    border-radius: 3px;
 }
 
 .aside-menu {
