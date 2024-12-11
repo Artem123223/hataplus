@@ -21,7 +21,7 @@
     letter-spacing: 2px;
     line-height: 24px;
     font-family: "Arial";
-    padding: 23px 0;
+    padding: 15.5px 0;
 }
 
 .a-header:hover {
@@ -126,7 +126,7 @@
 }
 
 .photoss {
-   padding-top: 23px;
+   align-items: center;
 }
 
 .zamovit {
@@ -152,7 +152,7 @@
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
-    padding: 17px 31px;
+    padding: 14px 29px;
     display: block;
 }
 
@@ -265,15 +265,11 @@ main {
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
+    transition: 1s ease;
 }
 
-.h4-second {
-    font-size: 14px;
-    line-height: 24px;
+.h4-first:hover {
     text-decoration: underline;
-    color: #1f1f56;
-    font-weight: bold;
-    font-family: "Arial";
 }
 
 .category {
