@@ -234,8 +234,9 @@ main {
 }
 
 .hr {
-    background-color: #e4e4ec;
     width: 100%;
+    border: none;
+    border-top: 1px solid #e4e4ec;
     margin: 33px 0;
 }
 
@@ -265,15 +266,11 @@ main {
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
+    transition: 1s ease;
 }
 
-.h4-second {
-    font-size: 14px;
-    line-height: 24px;
+.h4-first:hover {
     text-decoration: underline;
-    color: #1f1f56;
-    font-weight: bold;
-    font-family: "Arial";
 }
 
 .category {
@@ -312,6 +309,7 @@ main {
 
 .aside-menu {
     min-width: 220px;
+    border-radius: 3px;
 }
 
 .aside-menu a {
@@ -325,6 +323,11 @@ main {
 .aside-menu li:hover > a {
     background-color: #fd8300;
     color: #fff;
+}
+
+.aside-ul {
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
 }
 
 .submenu a {
