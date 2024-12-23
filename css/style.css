@@ -16,6 +16,18 @@
     background-color: #1f1f56;
 }
 
+header {
+    padding-top: 55px;
+}
+
+.wrapper-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .text-header {
     font-size: 14px;
     letter-spacing: 2px;
@@ -211,6 +223,7 @@ span {
     font-family: "Roboto Slab";
     padding-bottom: 28px;
 }
+
 main {
     padding-top: 42px;
 }
@@ -303,13 +316,14 @@ main {
     list-style: none;
 }
 
-.aside {
-    border-radius: 3px;
-}
-
 .aside-menu {
     min-width: 220px;
     border-radius: 3px;
+}
+
+.sticky {
+    position: sticky;
+    top: 60px;
 }
 
 .aside-menu a {
