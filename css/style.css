@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+        url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Regular.woff') format('woff'),
+        url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Medium.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Medium.woff') format('woff'),
+        url('../fonts/RobotoSlab-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +73,7 @@ header {
 .a-header {
     color: #b1b1d2;
     text-decoration: none;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .flex-between {
@@ -66,6 +96,29 @@ header {
 
 .p-a {
     padding-left: 18px;
+}
+
+.svg-fb,
+.svg-tw,
+.svg-inst {
+    fill: #fff;
+    transition: all 0.5s ease;
+}
+
+.svg-phone,
+.svg-ema,
+.svg-skype {
+    fill: #1f1f56;
+    transition: all 0.5s ease;
+}
+
+.svg-phone:hover,
+.svg-fb:hover,
+.svg-tw:hover,
+.svg-inst:hover,
+.svg-ema:hover,
+.svg-skype:hover {
+    fill: #fd8300;
 }
 
 .phone a {
@@ -101,7 +154,7 @@ header {
 }
 
 .hover {
-    transition: 1s ease;
+    transition: 0.5s ease;
     text-decoration: none;
 }
 
@@ -279,7 +332,7 @@ main {
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .h4-first:hover {
@@ -342,6 +395,32 @@ main {
 .aside-ul {
     border-radius: 0 0 3px 3px;
     overflow: hidden;
+}
+
+.aside-ul > li > a {
+    position: relative;
+}
+
+.aside-ul > li > a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    transform: translateY(-50%) rotate(135deg);
+    transition: all 0.5s ease;
+}
+
+.aside-ul > li:hover > a:before {
+    border-color: #fff;
+    transform: translateY(-50%) rotate(225deg);
+}
+
+.li-border {
+    border-top: 1px solid #cdcddd;
 }
 
 .submenu a {
