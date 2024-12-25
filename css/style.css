@@ -166,6 +166,11 @@ header {
     padding-left: 18px;
 }
 
+.email:before {
+    content: "";
+    border-left: 1px solid #e4e4ec;
+}
+
 .a-email {
     font-size: 16px;
     line-height: 24px;
