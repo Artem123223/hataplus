@@ -105,6 +105,12 @@ header {
     transition: all 0.5s ease;
 }
 
+.svg-fb:hover,
+.svg-tw:hover,
+.svg-inst:hover {
+    fill: #fd8300;
+}
+
 .svg-phone,
 .svg-ema,
 .svg-skype {
@@ -112,13 +118,12 @@ header {
     transition: all 0.5s ease;
 }
 
-.svg-phone:hover,
-.svg-fb:hover,
-.svg-tw:hover,
-.svg-inst:hover,
-.svg-ema:hover,
-.svg-skype:hover {
-    fill: #fd8300;
+.svg-skype,
+.svg-ema {
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .phone a {
@@ -131,6 +136,12 @@ header {
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
+    display: flex;
+    justify-content: right;
+}
+
+.a-tel p {
+    padding-left: 11px;
 }
 
 .ul-phone {
@@ -166,8 +177,26 @@ header {
     padding-left: 18px;
 }
 
+.email {
+    position: relative;
+}
+
+.email a:hover > svg,
+.phone a:hover > svg {
+    fill: #fd8300;
+}
+
+.emai a:hover > svg {
+    fill: #fd8300;
+}
+
 .email:before {
     content: "";
+    width: 1px;
+    height: 51px;
+    position: absolute;
+    left: -28px;
+    top: 0;
     border-left: 1px solid #e4e4ec;
 }
 
@@ -177,7 +206,9 @@ header {
     text-decoration: underline;
     color: #25252c;
     font-family: "Arial";
-    
+    position: relative;
+    padding-left: 20px;
+    text-decoration: none;
 }
 
 .flex-stretch {
@@ -202,14 +233,7 @@ header {
 .zamovit {
     border: 2px solid #fd8300;
     border-radius: 25px;
-}
-
-.zamovit-p {
-    font-size: 14px;
-    line-height: 21px;
-    color: #25252c;
-    font-weight: bold;
-    font-family: "Arial";
+    transition: all 0.5s ease;
 }
 
 .skype {
@@ -224,6 +248,17 @@ header {
     font-family: "Arial";
     padding: 14px 29px;
     display: block;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.zamovit:hover {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.camovit:hover {
+    color: #fff;
 }
 
 .photo-img {
