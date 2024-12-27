@@ -126,6 +126,14 @@ header {
     transform: translateY(-50%);
 }
 
+.svg-phone {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -11px;
+}
+
+
 .phone a {
     padding-left: 11px;
 }
@@ -138,6 +146,7 @@ header {
     font-family: "Arial";
     display: flex;
     justify-content: right;
+    position: relative;
 }
 
 .a-tel p {
@@ -257,7 +266,7 @@ header {
     color: #fff;
 }
 
-.camovit:hover {
+.zamovit:hover > .camovit {
     color: #fff;
 }
 
@@ -272,6 +281,10 @@ header {
     flex-direction: column;
     padding-top: 59px;
     padding-bottom: 44px;
+}
+
+sup {
+    font-size: 1;
 }
 
 .wrapper-main {
@@ -334,9 +347,15 @@ main {
     font-size: 14px;
     line-height: 24px;
     text-decoration: underline;
-    color: #fd8300;
+    color: #666;
     font-weight: bold;
     font-family: "Arial";
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.a-detals:hover {
+    color: #fd8300;
 }
 
 .hr {
@@ -359,9 +378,13 @@ main {
     text-decoration: none;  
 }
 
+.article-house:hover > h3 {
+    text-decoration: underline;
+}
+
 .p-plosha {
     font-size: 13px;
-    line-height: 18px;
+    line-height: 18px; 
     color: #9999a6;
     font-family: "Arial";
 }
@@ -373,10 +396,6 @@ main {
     font-weight: bold;
     font-family: "Arial";
     transition: 0.5s ease;
-}
-
-.h4-first:hover {
-    text-decoration: underline;
 }
 
 .category {
@@ -448,8 +467,8 @@ main {
     right: 14px;
     width: 7px;
     height: 7px;
-    border-top: 2px solid #000;
-    border-left: 2px solid #000;
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
     transform: translateY(-50%) rotate(135deg);
     transition: all 0.5s ease;
 }
