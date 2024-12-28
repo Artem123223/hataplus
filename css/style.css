@@ -378,6 +378,22 @@ main {
     text-decoration: none;  
 }
 
+.relative-a {
+    position: relative;
+}
+
+.figure-a {
+    position: absolute;
+    width: 219px;
+    height: 238px;
+    top: 0;
+    left: 0;
+}
+
+.relative-a:hover > h3 {
+    text-decoration: underline;
+}
+
 .article-house:hover > h3 {
     text-decoration: underline;
 }
