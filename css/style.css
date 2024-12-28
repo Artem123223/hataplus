@@ -390,7 +390,7 @@ main {
     left: 0;
 }
 
-.relative-a:hover > h3 {
+.relative-a a:hover ~ h3 {
     text-decoration: underline;
 }
 
