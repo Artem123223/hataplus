@@ -548,3 +548,109 @@ footer {
 main {
     padding-bottom: 46px;
 }
+
+
+
+.h3-zhini {
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 21px;
+}
+
+.p-opis {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+    padding-bottom: 27px;
+}
+
+.p-opiss {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+    padding-bottom: 25px;
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    list-style: none;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.a-header:hover ~ .hidden {
+    display: block;
+}
+
+.relative {
+    position: relative;
+}
+
+.a-houses {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hidden li {
+    background-color: #e4e4ec;
+    width: 126px;
+}
+
+.hidden li:hover {
+    background-color: #fd8300;
+}
+
+.hidden li+li {
+    border-top: 1px solid #cecedd;
+}
+
+.hidden > li {
+    position: relative;
+}
+
+.hidden > li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
+    transform: translateY(-50%) rotate(135deg);
+    transition: all 0.5s ease;
+}
+
+.hidden > li:hover:before {
+    border-color: #fff;
+    transform: translateY(-50%) rotate(225deg);
+}
+
+.text-header li:hover > ul {
+    display: block;
+}
+
+.hidden li:hover > a {
+    color: #fff;
+}
+
+.hidden li:hover {
+    background-color: #fd8300;
+}
+
+.center {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
