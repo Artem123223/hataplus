@@ -48,6 +48,7 @@
 
 header {
     padding-top: 55px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1); 
 }
 
 .wrapper-header {
@@ -63,7 +64,6 @@ header {
     letter-spacing: 2px;
     line-height: 24px;
     font-family: "Arial";
-    padding: 15.5px 0;
 }
 
 .a-header:hover {
@@ -71,9 +71,15 @@ header {
 }
 
 .a-header {
+    display: block;
+    padding: 15.5px 0;
     color: #b1b1d2;
     text-decoration: none;
     transition: 0.5s ease;
+}
+
+.relative {
+    position: relative;
 }
 
 .flex-between {
@@ -580,29 +586,28 @@ main {
     position: absolute;
     list-style: none;
     border-radius: 3px;
-    overflow:hidden;
+    top: 100%;
+    left: 0;
 }
 
 .a-header:hover ~ .hidden,
-.a-houses:hover ~ .ul-header {
+.hover-a:hover ~ .ul-header {
     display: block;
-}
-
-
-.hidde {
-    display: none;
-    position: absolute;
-    list-style: none;
-    border-radius: 3px;
-    overflow: hidden;
 }
 
 .ul-header {
     z-index: 1;
+    left: 100%;
+    top: 0;
 }
 
-.relative {
+.center {
     position: relative;
+}
+
+.center:before {
+    color: transparent;
+    position: absolute;
 }
 
 .a-houses {
