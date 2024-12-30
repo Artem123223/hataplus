@@ -580,11 +580,25 @@ main {
     position: absolute;
     list-style: none;
     border-radius: 3px;
+    overflow:hidden;
+}
+
+.a-header:hover ~ .hidden,
+.a-houses:hover ~ .ul-header {
+    display: block;
+}
+
+
+.hidde {
+    display: none;
+    position: absolute;
+    list-style: none;
+    border-radius: 3px;
     overflow: hidden;
 }
 
-.a-header:hover ~ .hidden {
-    display: block;
+.ul-header {
+    z-index: 1;
 }
 
 .relative {
@@ -604,10 +618,6 @@ main {
 .hidden li {
     background-color: #e4e4ec;
     width: 126px;
-}
-
-.hidden li:hover {
-    background-color: #fd8300;
 }
 
 .hidden li+li {
@@ -640,17 +650,14 @@ main {
     display: block;
 }
 
+.hidden li {
+    transition: all 0.5s ease;
+}
+
 .hidden li:hover > a {
     color: #fff;
 }
 
 .hidden li:hover {
     background-color: #fd8300;
-}
-
-.center {
-    position: absolute;
-    top: 24px;
-    left: 50%;
-    transform: translateX(-50%);
 }
