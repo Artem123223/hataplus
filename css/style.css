@@ -573,12 +573,27 @@ main {
     padding-bottom: 27px;
 }
 
+.ok {
+    padding-top: 27px;
+}
+
 .p-opiss {
+    padding-bottom: 25px;
+}
+
+.opis {
     font-size: 13px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
-    padding-bottom: 25px;
+}
+
+.hidden:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.hidden:last-child {
+    border-radius: 0 0 3px 3px;
 }
 
 .hidden {
@@ -586,8 +601,18 @@ main {
     position: absolute;
     list-style: none;
     border-radius: 3px;
-    top: 100%;
+    top: calc(100% + 5px);
     left: 0;
+}
+
+.hidden:before {
+    content: "";    
+    position: absolute;
+    border-top: 5px solid transparent;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
 }
 
 .a-header:hover ~ .hidden,
@@ -599,6 +624,18 @@ main {
     z-index: 1;
     left: 100%;
     top: 0;
+    left: calc(100% + 4px);
+    position: absolute;
+}
+
+.ul-header:before {
+    content: "";
+    position: absolute;
+    border-left: 4px solid transparent;
+    top: 0;
+    left: -4px;
+    width: 4px;
+    height: 100%;
 }
 
 .hidden:first-child(1) {
@@ -628,11 +665,11 @@ main {
     border-top: 1px solid #cecedd;
 }
 
-.hidden > li {
+.hover-li {
     position: relative;
 }
 
-.hidden > li:before {
+.hover-li:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -666,14 +703,31 @@ main {
     background-color: #fd8300;
 }
 
+.inside {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    text-decoration: none;
+    padding: 10px;
+}
+
 th {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
-    border: 1px solid #274569;
     border-collapse: collapse;
+}
+
+.border-top > th {
+    border-top: 1px solid #274569;
+}
+
+.border-left > th {
+    border-left: 1px solid #274569;
 }
 
 td {
@@ -713,11 +767,28 @@ tbody > tr > td:last-child {
     text-align: right;
 }
 
+.haracters {
+    padding: 10px 182px;
+}
+
+.cina {
+    padding: 28px 20px 28px 70px;
+}
+
 .garage {
     padding: 0 18.5px;
+    padding: 10px 38px;
 }
 
 .nazva {
     padding: 23px 20px;
     text-align: left;
+}
+
+.zagalna-plosha {
+    padding: 10px 34px;
+}
+
+.kilkict {
+    padding: 11px 42px;
 }
