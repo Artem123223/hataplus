@@ -601,13 +601,12 @@ main {
     top: 0;
 }
 
-.center {
-    position: relative;
+.hidden:first-child(1) {
+    border-radius: 3px 3px 0 0;
 }
 
-.center:before {
-    color: transparent;
-    position: absolute;
+.hidden:last-child {
+    border-radius: 0 0 3px 3px;
 }
 
 .a-houses {
@@ -665,4 +664,60 @@ main {
 
 .hidden li:hover {
     background-color: #fd8300;
+}
+
+th {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border: 1px solid #274569;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+    border: 1px solid #cecedd;
+    box-shadow: inset 0px -1px 0px 0px #cecedd;
+    background-color: #e4e4ec;
+}
+.left {
+    text-align: left;
+}
+
+thead {
+    background-color: #1f1f56; 
+}
+
+table {
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody > tr > td:first-child,
+tbody > tr > td:last-child {
+    padding: 8.5px 19px;
+}
+
+.center {
+    text-align: center;
+}
+
+tbody > tr > td:last-child {
+    text-align: right;
+}
+
+.garage {
+    padding: 0 18.5px;
+}
+
+.nazva {
+    padding: 23px 20px;
+    text-align: left;
 }
