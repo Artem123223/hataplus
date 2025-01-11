@@ -353,7 +353,7 @@ main {
     font-size: 14px;
     line-height: 24px;
     text-decoration: underline;
-    color: #666;
+    color: #fd8300;
     font-weight: bold;
     font-family: "Arial";
     text-decoration: none;
@@ -361,7 +361,8 @@ main {
 }
 
 .a-detals:hover {
-    color: #fd8300;
+    color: #666;
+    text-decoration: underline;
 }
 
 .hr {
@@ -735,10 +736,18 @@ td {
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
-    border: 1px solid #cecedd;
-    box-shadow: inset 0px -1px 0px 0px #cecedd;
     background-color: #e4e4ec;
 }
+
+tbody > tr > td {
+    transition: all 0.5s ease;
+}
+
+tbody > tr:hover > td {
+    background-color: #fd8300;
+    color: #fff;
+}
+
 .left {
     text-align: left;
 }
@@ -752,6 +761,14 @@ table {
     overflow: hidden;
     width: 100%;
     border-collapse: collapse;
+}
+
+tbody > tr > td + td  {
+    border-left: 1px solid #cecedd;
+}
+
+tbody > tr + tr {
+    border-top: 1px solid #cecedd;
 }
 
 tbody > tr > td:first-child,
