@@ -552,11 +552,10 @@ footer {
     text-align: center;
 }
 
+
 main {
     padding-bottom: 46px;
 }
-
-
 
 .h3-zhini {
     font-size: 24px;
@@ -572,6 +571,7 @@ main {
     color: #666666;
     font-family: "Arial";
     padding-bottom: 27px;
+    width: 818px;
 }
 
 .ok {
@@ -692,6 +692,14 @@ main {
     display: block;
 }
 
+.radius > li:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.radius > li:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
 .hidden li {
     transition: all 0.5s ease;
 }
@@ -784,17 +792,20 @@ tbody > tr > td:last-child {
     text-align: right;
 }
 
+.width-td {
+    width: 256px;
+}
+
 .haracters {
-    padding: 10px 182px;
+    padding: 0px 0;
 }
 
 .cina {
-    padding: 28px 20px 28px 70px;
+    padding: 23px 20px 23px 70px;
 }
 
 .garage {
-    padding: 0 18.5px;
-    padding: 10px 38px;
+    padding: 0px 18.5px;
 }
 
 .nazva {
@@ -803,9 +814,9 @@ tbody > tr > td:last-child {
 }
 
 .zagalna-plosha {
-    padding: 10px 34px;
+    padding: 0px 34px;
 }
 
 .kilkict {
-    padding: 11px 42px;
+    padding: 0px 42px;
 }
