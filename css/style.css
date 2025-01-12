@@ -223,7 +223,6 @@ header {
     font-family: "Arial";
     position: relative;
     padding-left: 20px;
-    text-decoration: none;
 }
 
 .flex-stretch {
@@ -552,6 +551,7 @@ footer {
     text-align: center;
 }
 
+/* start hataprice */
 
 main {
     padding-bottom: 46px;
@@ -819,4 +819,92 @@ tbody > tr > td:last-child {
 
 .kilkict {
     padding: 0px 42px;
+}
+
+/* start contacts */
+
+.h2-contact {
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 27px;
+}
+
+.a-te {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.information > div:first-child > p:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 14px;
+}
+
+.first-colon > p:first-child,
+.second-colon > p:first-child,
+.third-colon > p:first-child,
+.web-forms > div > p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.second-colon > p:first-child,
+.third-colon > p:first-child {
+    padding-bottom: 22px;
+}
+
+.first-colon > p:first-child {
+    padding-bottom: 19px;
+}
+
+.first-colon > p:nth-child(2) {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+    padding-bottom: 14px;
+}
+
+.second-colon > p:nth-child(2),
+.second-colon > p:nth-child(4) {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.third-colon > p + p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.third-colon > p:nth-child(2) {
+    width: 254px;
+    padding-bottom: 20px;
+}
+
+.third-colon > p:nth-child(3) {
+    width: 216px;
+}
+
+.second-colon > p:nth-child(3) {
+    padding-bottom: 16px;
+}
+
+.a-emai {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
 }
