@@ -823,6 +823,14 @@ tbody > tr > td:last-child {
 
 /* start contacts */
 
+.information > .div-x {
+    column-gap: 88px;
+}
+
+.information {
+    column-gap: 165px;
+}
+
 .h2-contact {
     font-size: 24px;
     color: #24242b;
@@ -901,10 +909,33 @@ tbody > tr > td:last-child {
     padding-bottom: 16px;
 }
 
+.first-colon > p:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 14px;
+}
+
 .a-emai {
     font-size: 16px;
     line-height: 24px;
     text-decoration: underline;
     color: #25252c;
     font-family: "Arial";
+}
+
+.web-forms > div:first-child {
+    overflow: hidden;
+}
+
+.map{
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    height: 50vh;
+}
+iframe{
+    position: absolute;
+    top: -71px;
+    left: 0;
+    border: none;
 }
