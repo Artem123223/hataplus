@@ -908,3 +908,94 @@ tbody > tr > td:last-child {
     color: #25252c;
     font-family: "Arial";
 }
+
+.first-colon > p:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 14px;
+}
+
+.div-x {
+    column-gap: 88px;
+    display: flex;
+}
+
+.information {
+    column-gap: 162px;
+}
+
+.map{
+  position: relative;
+  overflow: hidden;
+  width: 467px;
+  height: 296px;
+ }
+ 
+iframe{
+  position: absolute;
+  top: -71px;
+  left: 0;
+  border: none;
+  width: 467px;
+  height: 296px;
+}
+
+form > label:first-child > input,
+form > label:nth-child(2) > p > input,
+form > label:nth-child(3) > textarea {
+    appearance: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    font-size: 13px;
+    line-height: 21px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+form > label:first-child > input {
+    width: 100%;
+    height: 40px;
+}
+
+form > label:nth-child(2) > p > input {
+    width: 100%;
+    height: 40px;
+}
+
+form > label:nth-child(3) > textarea {
+    width: 100%;
+    height: 105px;
+}
+
+.map ~ div > p {
+    padding-bottom: 21px;
+}
+
+input[type=submit] {
+    appearance: none;
+    width: 140px;
+    height: 41px;
+    appearance: none;
+    border-radius: 21px;
+    background-color: #fd8300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+}
+
+form > label:last-child {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+form > label,
+form > label > p {
+    column-gap: 9px;
+}
