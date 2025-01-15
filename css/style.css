@@ -33,6 +33,13 @@
     padding: 0;
 }
 
+input[type=text],
+select,
+input[type=tel],
+textarea {
+    width: 100%;
+}
+
 .wrapper-big {
     width: 1280px;
 }
@@ -954,9 +961,13 @@ iframe{
   height: 296px;
 }
 
-form > label:first-child > input,
-form > label:nth-child(2) > p > input,
-form > label:nth-child(3) > textarea {
+.web-forms > div:last-child {
+    width: 50%;
+}
+
+form input[type=text],
+form input[type=tel],
+form textarea {
     appearance: none;
     border-radius: 3px;
     background-color: #ffffff;
@@ -973,7 +984,7 @@ form > label:first-child > input {
     height: 40px;
 }
 
-form > label:nth-child(2) > p > input {
+form > label:nth-child(2) > input {
     width: 100%;
     height: 40px;
 }
@@ -1000,6 +1011,46 @@ input[type=submit] {
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    width: 15px;
+    height: 15px;
+}
+
+.flexxx {
+    display: flex;
+    align-items: center;
+}
+
+.flexxx > p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+    padding-left: 12px;
+}
+
+.parent {
+    position: relative;
+}
+
+.parent span {
+    position: absolute;
+}
+
+input[type=checkbox]:checked + span {
+    top: 48%;
+    left: 50%;
+    width: 8px;
+    height: 5px;
+    border-top: 2px solid #1f1f56;
+    border-right: 2px solid #1f1f56;
+    transform: translate(-47%, -50%) rotate(135deg);
 }
 
 form > label:last-child {
@@ -1037,4 +1088,8 @@ iframe{
 .flexx {
     display: flex;
     column-gap: 9px;
+}
+
+form > p {
+    margin-bottom: 9px;
 }
