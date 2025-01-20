@@ -1011,6 +1011,7 @@ input[type=submit] {
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
+    border: none;
 }
 
 input[type=checkbox] {
@@ -1022,17 +1023,15 @@ input[type=checkbox] {
     height: 15px;
 }
 
-.flexxx {
-    display: flex;
-    align-items: center;
+form input[type=text],
+form input[type=tel] {
+    padding: 15px;
 }
 
-.flexxx > p {
-    font-size: 13px;
-    line-height: 21px;
-    color: #666666;
-    font-family: "Arial";
-    padding-left: 12px;
+.flexxx {
+    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 .parent {
@@ -1092,4 +1091,16 @@ iframe{
 
 form > p {
     margin-bottom: 9px;
+}
+
+.flexxx > span {
+    margin-right: 29px;
+}
+
+.flexxx > span,
+.flexxx > p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
 }
