@@ -977,6 +977,7 @@ form textarea {
     color: #9999a6;
     font-style: italic;
     font-family: "Arial";
+    box-sizing: border-box;
 }
 
 form > label:first-child > input {
@@ -1024,14 +1025,25 @@ input[type=checkbox] {
 }
 
 form input[type=text],
-form input[type=tel] {
-    padding: 15px;
+form input[type=tel],
+textarea {
+    padding: 9px;
+}
+
+textarea {
+    resize: horizontal;
+    height: 100%;
 }
 
 .flexxx {
     display: flex;
     position: relative;
     width: 100%;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+    align-items: center;
 }
 
 .parent {
@@ -1068,14 +1080,14 @@ form > label > p {
     overflow: hidden;
 }
 
-.map{
+.map {
     position: relative;
     overflow: hidden;
     width: 466px;
     height: 299px;
 }
 
-iframe{
+iframe {
     position: absolute;
     top: -71px;
     left: 0;
@@ -1094,13 +1106,7 @@ form > p {
 }
 
 .flexxx > span {
-    margin-right: 29px;
-}
-
-.flexxx > span,
-.flexxx > p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
 }
