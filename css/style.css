@@ -313,13 +313,6 @@ sup {
     font-family: "Roboto Slab";
 }
 
-span {
-    font-size: 24px;
-    color: #fd8300;
-    font-weight: bold;
-    font-family: "Arial";
-}
-
 .photo-img-p1 {
     font-size: 14px;
     line-height: 24px;
@@ -1047,6 +1040,8 @@ input[type=checkbox] {
 }
 
 .parent {
+    width: 15px;
+    height: 15px;
     position: relative;
 }
 
@@ -1055,7 +1050,6 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked + span {
-
     top: 40%;
     left: 50%;
     width: 8px;
