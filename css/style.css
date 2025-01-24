@@ -1015,15 +1015,6 @@ input[type=submit] {
     border: none;
 }
 
-input[type=checkbox] {
-    appearance: none;
-    border-radius: 3px;
-    background-color: #ffffff;
-    border: 1px solid #c5c5d4;
-    width: 15px;
-    height: 15px;
-}
-
 form input[type=text],
 form input[type=tel],
 textarea {
@@ -1037,13 +1028,22 @@ textarea {
 
 .flexxx {
     display: flex;
-    position: relative;
+    align-items: center;
     width: 100%;
+    column-gap: 10px;
     font-size: 13px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
-    align-items: center;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    width: 15px;
+    height: 15px;
 }
 
 .parent {
@@ -1055,13 +1055,14 @@ textarea {
 }
 
 input[type=checkbox]:checked + span {
-    top: 48%;
+
+    top: 40%;
     left: 50%;
     width: 8px;
     height: 5px;
     border-top: 2px solid #1f1f56;
     border-right: 2px solid #1f1f56;
-    transform: translate(-47%, -50%) rotate(135deg);
+    transform: translate(-50%, -50%) rotate(135deg);
 }
 
 form > label:last-child {
@@ -1102,11 +1103,9 @@ iframe {
 }
 
 form > p {
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
-.flexxx > span {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.label-column {
+    column-gap: 29px;
 }
