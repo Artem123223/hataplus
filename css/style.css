@@ -967,7 +967,6 @@ form textarea {
     border: 1px solid #c5c5d4;
     font-size: 13px;
     line-height: 21px;
-    color: #9999a6;
     font-style: italic;
     font-family: "Arial";
     box-sizing: border-box;
@@ -1015,7 +1014,7 @@ textarea {
 }
 
 textarea {
-    resize: horizontal;
+    resize: vertical;
     height: 100%;
 }
 
