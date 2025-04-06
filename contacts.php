@@ -7,8 +7,8 @@ if($_POST) {
         $whatyouwant = $_POST['textwhatyouwant'];
         $tick = $_POST['tick'];
     } catch (\Throwable $th) {
-        $userName ="error";
-        $userEmail ="error";
+        $text ="error";
+        $tel ="error";
         $textmessage = "error";
         $whatyouwant = "error";
         $tick = "error";
