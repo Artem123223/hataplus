@@ -36,6 +36,9 @@
 html {
     font-size: 1px;
 }
+body {
+    width: 100%;
+}
 
 input[type=text],
 select,
@@ -51,6 +54,12 @@ textarea {
 .wrapper {
     margin: 0 auto;
     max-width: 960rem;
+    width: 100%;
+}
+
+.kaka {
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper-header {
@@ -95,7 +104,7 @@ header {
 
 .flex-between {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -195,17 +204,18 @@ header {
 .menu {
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -200%;
     z-index: 2;
-    background-color: aqua;
+    background-color: #1f1f56;
     transition: all .5s ease;
 }
 .cancel {
     position: absolute;
-    top: -10px;
-    right: 5px;
+    top: 0;
+    right: 10px;
     cursor: pointer;
-  }
+    color: #fff;
+}
 
 .phone a {
     padding-left: 11rem;
@@ -362,6 +372,8 @@ sup {
 .wrapper-main {
     padding: 36rem 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photo-img-p {
@@ -706,6 +718,10 @@ main {
 
 .hidden:last-child {
     border-radius: 0 0 3rem 3rem;
+}
+
+.houses {
+    gap: 10px;
 }
 
 .a-houses {
@@ -1164,8 +1180,87 @@ form > p {
 .label-column {
     column-gap: 29rem;
 }
-
+@media screen and (max-width: 500px) {
+    .flex-between {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrapper-main {
+        padding: 36rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wrapper {
+        margin: 0 auto;
+        max-width: 960rem;
+    }
+    .kaka {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper-main {
+        gap: 10px;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        left: -200%;
+        z-index: 2;
+        background-color: #1f1f56;
+        transition: all .5s ease;
+    }
+    .orange-p {
+        text-align: center;
+    }
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
+    h1 {
+        padding-top: 20px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .information {
+        text-align: center;
+    }
+    .houses {
+        gap: 10px;
+    }
+    html {
+        font-size: .9px;
+    }
+    .infooter {
+        gap: 20px;
+    }
+}
 @media screen and (min-width: 500px) {
+    .burger {
+        display: none;
+    }
+    .top-line {
+        padding: 0 10px;
+    }
+    .menu {
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        background-color: rgb(0, 89, 255);
+    }
+    .cancel {
+        display: none;
+    }
+}
+@media screen and (min-width: 501px) {
+    .wrapper-main {
+        padding: 36rem 0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
     .burger {
         display: none;
     }
@@ -1187,11 +1282,24 @@ form > p {
         justify-content: space-between;
         flex-wrap: nowrap;
     }
+    .wrapper {
+        margin: 0 auto;
+        max-width: 960rem;
+        width: 100%;
+    }
 }
-@media screen and (max-width: 499px) {
-    .flex-between {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 1px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 1.1px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 1.4px;
     }
 }
