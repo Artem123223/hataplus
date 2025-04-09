@@ -82,7 +82,7 @@ header {
 .text-header {
     font-size: 14rem;
     letter-spacing: 2rem;
-    line-height: 24em;
+    line-height: 1.7em;
     font-family: "Arial";
 }
 
@@ -223,7 +223,7 @@ header {
 
 .a-tel {
     font-size: 18rem;
-    line-height: 24em;
+    line-height: 1.3em;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
@@ -294,7 +294,7 @@ header {
 
 .a-email {
     font-size: 16rem;
-    line-height: 24em;
+    line-height: 1.5em;
     text-decoration: underline;
     color: #25252c;
     font-family: "Arial";
@@ -333,7 +333,7 @@ header {
 
 .camovit {
     font-size: 16rem;
-    line-height: 24em;
+    line-height: 1.5em;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
@@ -387,7 +387,7 @@ sup {
 
 .photo-img-p1 {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #ffffff;
     font-family: "Arial";
 }
@@ -414,7 +414,7 @@ main {
 .text {
     max-width: 677rem;
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #666666;
     font-family: "Arial";
     padding-bottom: 21rem;
@@ -422,7 +422,7 @@ main {
 
 .a-detals {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     text-decoration: underline;
     color: #fd8300;
     font-weight: bold;
@@ -445,7 +445,6 @@ main {
 
 .h2 {
     font-size: 24rem;
-    line-height: 24em;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -478,14 +477,14 @@ main {
 
 .p-plosha {
     font-size: 13rem;
-    line-height: 18em; 
+    line-height: 1.3em; 
     color: #9999a6;
     font-family: "Arial";
 }
 
 .h4-first {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #1f1f56;
     font-weight: bold;
     font-family: "Arial";
@@ -496,7 +495,7 @@ main {
     border-radius: 3rem 3rem 0 0;
     background-color: #1f1f56;
     font-size: 16rem;
-    line-height: 24em;
+    line-height: 1.5em;
     color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -510,7 +509,7 @@ main {
 .aside-menu a {
     padding: 10.5rem 16rem;
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #25252c;
     font-family: "Arial";
     background-color: #e4e4ec;
@@ -606,7 +605,7 @@ footer {
 
 .just {
     font-size: 14rem;
-    line-height: 26em;
+    line-height: 1.8em;
     color: #666666;
     font-family: "Arial";
 }
@@ -618,7 +617,7 @@ footer {
 
 .underfooter p {
     font-size: 13rem;
-    line-height: 18em;
+    line-height: 1.3em;
     color: #9999a6;
     font-family: "Arial";
     text-align: center;
@@ -640,7 +639,7 @@ main {
 
 .p-opis {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #666666;
     font-family: "Arial";
     padding-bottom: 27rem;
@@ -657,7 +656,7 @@ main {
 
 .opis {
     font-size: 13rem;
-    line-height: 21em;
+    line-height: 1.6em;
     color: #666666;
     font-family: "Arial";
 }
@@ -727,7 +726,7 @@ main {
 .a-houses {
     font-size: 12rem;
     letter-spacing: 2rem;
-    line-height: 24em;
+    line-height: 2em;
     color: #25252c;
     font-family: "Arial";
     padding: 10rem;
@@ -792,7 +791,7 @@ main {
 .inside {
     font-size: 12rem;
     letter-spacing: 2rem;
-    line-height: 24em;
+    line-height: 2em;
     color: #25252c;
     font-family: "Arial";
     text-decoration: none;
@@ -801,7 +800,7 @@ main {
 
 th {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -818,7 +817,7 @@ th {
 
 td {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #666666;
     font-family: "Arial";
     background-color: #e4e4ec;
@@ -918,7 +917,7 @@ tbody > tr > td:last-child {
 
 .a-te {
     font-size: 18rem;
-    line-height: 24em;
+    line-height: 1.3em;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
@@ -935,7 +934,7 @@ tbody > tr > td:last-child {
 .third-colon > p:first-child,
 .web-forms > div > p {
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
@@ -952,7 +951,7 @@ tbody > tr > td:last-child {
 
 .first-colon > p:nth-child(2) {
     font-size: 14rem;
-    line-height: 21em;
+    line-height: 1.5em;
     color: #666666;
     font-family: "Arial";
     padding-bottom: 14px;
@@ -961,14 +960,14 @@ tbody > tr > td:last-child {
 .second-colon > p:nth-child(2),
 .second-colon > p:nth-child(4) {
     font-size: 14rem;
-    line-height: 21em;
+    line-height: 1.5em;
     color: #666666;
     font-family: "Arial";
 }
 
 .third-colon > p + p {
     font-size: 14rem;
-    line-height: 21em;
+    line-height: 1.5em;
     color: #666666;
     font-family: "Arial";
 }
@@ -994,7 +993,7 @@ tbody > tr > td:last-child {
 
 .a-emai {
     font-size: 16rem;
-    line-height: 24em;
+    line-height: 1.5em;
     text-decoration: underline;
     color: #25252c;
     font-family: "Arial";
@@ -1043,7 +1042,7 @@ form textarea {
     background-color: #ffffff;
     border: 1rem solid #c5c5d4;
     font-size: 13rem;
-    line-height: 21em;
+    line-height: 1.6m;
     color: #9999a6;
     font-style: italic;
     font-family: "Arial";
@@ -1077,7 +1076,7 @@ input[type=submit] {
     border-radius: 21rem;
     background-color: #fd8300;
     font-size: 14rem;
-    line-height: 24em;
+    line-height: 1.7em;
     color: #ffffff;
     font-weight: bold;
     font-family: "Arial";
@@ -1102,7 +1101,7 @@ textarea {
     width: 100%;
     column-gap: 10rem;
     font-size: 13rem;
-    line-height: 21em;
+    line-height: 1.6em;
     color: #666666;
     font-family: "Arial";
 }
@@ -1138,7 +1137,7 @@ input[type=checkbox]:checked + span {
 
 form > label:last-child {
     font-size: 13rem;
-    line-height: 21em;
+    line-height: 1.6em;
     color: #666666;
     font-family: "Arial";
 }
