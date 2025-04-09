@@ -104,7 +104,7 @@ header {
 
 .flex-between {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -1235,6 +1235,9 @@ form > p {
     .infooter {
         gap: 20px;
     }
+    .ada {
+        justify-content: flex-start;
+    }
 }
 @media screen and (min-width: 500px) {
     .burger {
@@ -1248,7 +1251,7 @@ form > p {
         display: flex;
         justify-content: space-between;
         column-gap: 10px;
-        background-color: rgb(0, 89, 255);
+        background-color: #1f1f56;
     }
     .cancel {
         display: none;
