@@ -53,8 +53,12 @@ textarea {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960rem;
+    max-width: 960px;
     width: 100%;
+}
+.reverse {
+    padding-top: 40px;
+    padding-bottom: 45px;
 }
 
 .kaka {
@@ -1179,6 +1183,11 @@ form > p {
 .label-column {
     column-gap: 29rem;
 }
+@media screen and (max-width: 499px) {
+    .ulka {
+        padding-right: 0;
+    }
+}
 @media screen and (max-width: 500px) {
     .flex-between {
         display: flex;
@@ -1198,6 +1207,13 @@ form > p {
     .kaka {
         display: flex;
         justify-content: space-between;
+        padding: 0 0;
+    }
+    .ulka {
+        padding-right: 35px;
+    }
+    .email:before {
+        border-left: 1rem solid transparent;
     }
     .wrapper-main {
         gap: 10px;
@@ -1206,6 +1222,9 @@ form > p {
         position: absolute;
         top: 0;
         left: -200%;
+        padding-right: 0;
+        width: 50vh;
+        height: 100vh;
         z-index: 2;
         background-color: #1f1f56;
         transition: all .5s ease;
@@ -1222,9 +1241,6 @@ form > p {
     h2 {
         text-align: center;
     }
-    .information {
-        text-align: center;
-    }
     .houses {
         gap: 10px;
     }
@@ -1239,6 +1255,9 @@ form > p {
     }
 }
 @media screen and (min-width: 500px) {
+    .ulka {
+        padding-right: 0px;
+    }
     .burger {
         display: none;
     }
@@ -1254,6 +1273,13 @@ form > p {
     }
     .cancel {
         display: none;
+    }
+}
+@media screen and (min-width: 691px) {
+    .flex-between {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
     }
 }
 @media screen and (min-width: 501px) {
@@ -1279,29 +1305,19 @@ form > p {
     .cancel {
         display: none;
     }
-    .flex-between {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
     .wrapper {
         margin: 0 auto;
         max-width: 960rem;
         width: 100%;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1600px) {
     html {
         font-size: 1px;
     }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2200px) {
     html {
-        font-size: 1.1px;
-    }
-}
-@media screen and (min-width: 2560px) {
-    html {
-        font-size: 1.4px;
+        font-size: 1.3px;
     }
 }
