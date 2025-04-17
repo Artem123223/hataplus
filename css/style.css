@@ -1189,11 +1189,6 @@ form > p {
     }
 }
 @media screen and (max-width: 500px) {
-    .flex-between {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
     .wrapper-main {
         padding: 36rem 0;
         display: flex;
@@ -1209,14 +1204,11 @@ form > p {
         justify-content: space-between;
         padding: 0 0;
     }
-    .ulka {
-        padding-right: 35px;
-    }
     .email:before {
         border-left: 1rem solid transparent;
     }
     .wrapper-main {
-        gap: 10px;
+        gap: 20px;
     }
     .menu {
         position: absolute;
@@ -1254,7 +1246,13 @@ form > p {
         justify-content: flex-start;
     }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 691px) {
+    .flex-between {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 501px) {
     .ulka {
         padding-right: 0px;
     }
@@ -1274,19 +1272,9 @@ form > p {
     .cancel {
         display: none;
     }
-}
-@media screen and (min-width: 691px) {
-    .flex-between {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-}
-@media screen and (min-width: 501px) {
     .wrapper-main {
         padding: 36rem 0;
         display: flex;
-        flex-wrap: nowrap;
         justify-content: space-between;
     }
     .burger {
@@ -1295,13 +1283,6 @@ form > p {
     .top-line {
         padding: 0 10px;
     }
-    .menu {
-        position: static;
-        display: flex;
-        justify-content: space-between;
-        column-gap: 10px;
-        background-color: #1f1f56;
-    }
     .cancel {
         display: none;
     }
@@ -1309,6 +1290,13 @@ form > p {
         margin: 0 auto;
         max-width: 960rem;
         width: 100%;
+    }
+}
+@media screen and (min-width: 928px) {
+    .flex-between {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
     }
 }
 @media screen and (min-width: 1600px) {
