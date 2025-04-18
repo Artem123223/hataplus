@@ -1183,12 +1183,12 @@ form > p {
 .label-column {
     column-gap: 29rem;
 }
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 599px) {
     .ulka {
-        padding-right: 0;
+        padding-right: 5rem;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .wrapper-main {
         padding: 36rem 0;
         display: flex;
@@ -1215,12 +1215,15 @@ form > p {
         position: absolute;
         top: 0;
         left: -200%;
-        padding-right: 0;
-        width: 50vh;
+        padding: 20rem;
+        width: 45vw;
         height: 100vh;
         z-index: 2;
         background-color: #1f1f56;
         transition: all .5s ease;
+    }
+    .dark-bgc ~ div {
+        padding: 3px;
     }
     .orange-p {
         text-align: center;
@@ -1246,6 +1249,9 @@ form > p {
     .ada {
         justify-content: flex-start;
     }
+    .text-header {
+        display: block;
+    }
 }
 @media screen and (min-width: 691px) {
     .flex-between {
@@ -1253,7 +1259,10 @@ form > p {
         justify-content: space-between;
     }
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
+    .aside-menu {
+        max-width: 220rem;
+    }
     .ulka {
         padding-right: 0px;
     }
@@ -1304,9 +1313,13 @@ form > p {
     html {
         font-size: 1px;
     }
+    .logo-w,
+    .logo-w img {
+        min-width: 220rem;
+    }
 }
 @media screen and (min-width: 2200px) {
     html {
-        font-size: 1.3px;
+        font-size: 1.5px;
     }
 }
