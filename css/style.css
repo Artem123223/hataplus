@@ -114,6 +114,7 @@ header {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .ulka {
@@ -1045,7 +1046,8 @@ form textarea {
     background-color: #ffffff;
     border: 1rem solid #c5c5d4;
     font-size: 13rem;
-    line-height: 1.6m;
+    width: 100%;
+    line-height: 1.6em;
     color: #9999a6;
     font-style: italic;
     font-family: "Arial";
@@ -1228,6 +1230,9 @@ form > p {
     .wrapper-main {
         gap: 20px;
     }
+    .web-forms {
+        width: 100%;
+    }
     .menu {
         position: absolute;
         top: 0;
@@ -1304,6 +1309,10 @@ form > p {
     .aside-menu {
         padding-bottom: 25rem;
     }
+    .web-forms > div:last-child,
+    .map {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 859px) {
     .wrapper-main > .phone {
@@ -1330,6 +1339,9 @@ form > p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .web-forms {
+        width: 100%;
     }
 }
 @media screen and (min-width: 961px) {
@@ -1385,8 +1397,15 @@ form > p {
         justify-content: space-between;
         flex-wrap: nowrap;
     }
+    .reverse {
+        display: flex;
+        flex-wrap: wrap;
+    }
     .aside-menu {
         max-width: 220rem;
+    }
+    .web-forms {
+        gap: 27px;
     }
 }
 @media screen and (min-width: 1600px) {
