@@ -647,7 +647,6 @@ main {
     color: #666666;
     font-family: "Arial";
     padding-bottom: 27rem;
-    width: 818rem;
 }
 
 .ok {
@@ -1241,7 +1240,7 @@ form > p {
         transition: all .5s ease;
     }
     .dark-bgc ~ div {
-        padding: 10rem;
+        padding: 10rem 10rem 10rem 0;
     }
     .ulka {
         padding-right: 10rem;
@@ -1291,6 +1290,11 @@ form > p {
         border-left: 1rem solid transparent;
     }
 }
+@media screen and (max-width: 560px) {
+    main > div:nth-child(2) {
+        overflow: auto;
+    }
+}
 @media screen and (min-width: 900px) {
     .email:before {
         border-left: 1rem solid#e4e4ec;
@@ -1298,7 +1302,7 @@ form > p {
 }
 @media screen and (max-width: 939px) {
     .aside-menu {
-        padding-bottom: 25px;
+        padding-bottom: 25rem;
     }
 }
 @media screen and (max-width: 859px) {
@@ -1364,7 +1368,7 @@ form > p {
         display: none;
     }
     .top-line {
-        padding: 0 10px;
+        padding: 0 10rem;
     }
     .cancel {
         display: none;
