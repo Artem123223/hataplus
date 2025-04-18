@@ -1226,11 +1226,15 @@ form > p {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .photo-img {
+        width: 100%;
+    }
     .wrapper {
         margin: 0 auto;
         max-width: 960rem;
         width: 100%;
-        padding: 5rem;
+        padding: 15rem;
+        padding-left: 15rem;
     }
     .kaka {
         display: flex;
