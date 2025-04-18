@@ -1235,6 +1235,7 @@ form > p {
         width: 100%;
         padding-right: 15rem;
         padding-left: 15rem;
+        box-sizing: border-box;
     }
     .kaka {
         display: flex;
