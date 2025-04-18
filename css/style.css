@@ -1214,28 +1214,9 @@ form > p {
         min-width: 200rem;
     }
 }
-@media screen and (max-width: 599px) {
-    .ulka {
-        padding-right: 5rem;
-    }
-}
 @media screen and (max-width: 650px) {
-    .wrapper-main {
-        padding: 36rem 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .photo-img {
         width: 100%;
-    }
-    .wrapper {
-        margin: 0 auto;
-        max-width: 960rem;
-        width: 100%;
-        padding-right: 15rem;
-        padding-left: 15rem;
-        box-sizing: border-box;
     }
     .kaka {
         display: flex;
@@ -1260,7 +1241,10 @@ form > p {
         transition: all .5s ease;
     }
     .dark-bgc ~ div {
-        padding: 3px;
+        padding: 10rem;
+    }
+    .ulka {
+        padding-right: 10rem;
     }
     .orange-p {
         text-align: center;
@@ -1302,6 +1286,56 @@ form > p {
         flex-wrap: wrap-reverse;
     }
 }
+@media screen and (max-width: 899px) {
+    .email:before {
+        border-left: 1rem solid transparent;
+    }
+}
+@media screen and (min-width: 900px) {
+    .email:before {
+        border-left: 1rem solid#e4e4ec;
+    }
+}
+@media screen and (max-width: 939px) {
+    .aside-menu {
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 859px) {
+    .wrapper-main > .phone {
+        padding-right: 10rem;
+    }
+    .wrapper-main > .logo-w {
+        padding-right: 10rem;
+    }
+    .wrapper-main > .email {
+        padding-right: 7rem;
+    }
+}
+@media screen and (max-width: 960px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 960rem;
+        width: 100%;
+        padding-right: 15rem;
+        padding-left: 15rem;
+        box-sizing: border-box;
+    }
+    .wrapper-main {
+        padding: 36rem 15rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 961px) {
+    .wrapper-main {
+        padding: 36rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 @media screen and (min-width: 651px) {
     .ulka {
         padding-right: 0px;
@@ -1323,7 +1357,6 @@ form > p {
         display: none;
     }
     .wrapper-main {
-        padding: 36rem 0;
         display: flex;
         justify-content: space-between;
     }
@@ -1342,7 +1375,7 @@ form > p {
         width: 100%;
     }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 940px) {
     .flex-between {
         display: flex;
         justify-content: space-between;
