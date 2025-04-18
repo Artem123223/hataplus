@@ -1266,6 +1266,10 @@ form > p {
     h2 {
         text-align: center;
     }
+    .reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
     .houses {
         gap: 20px;
         padding-bottom: 10rem;
