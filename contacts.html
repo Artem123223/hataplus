@@ -2,17 +2,23 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" user-scalable="no" initial-scale="1.0" maximum-scale="1.0" minimum-scale="1.0">
+    <link rel="icon" href="img/favicontwo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
     <title>Хата Плюс, будинки на ваш вибір!</title>
 </head>
-
 <body>
     <header>
         <div class="wrapper-header">
-            <nav class="wrapper flex-between">
-                <nav>
-                    <ul class="text-header ulka flex-between">
+            <nav class="wrapper kaka flex-between">
+                <div class="dark-bgc"></div>
+                <div>
+                    <div class="burger">
+                        <span class="bord b1"></span>
+                        <span class="bord b2"></span>
+                        <span class="bord b3"></span>
+                    </div>
+                    <ul class="text-header menu ulka flex-between">
                         <li>
                             <a href="index.html" class="a-header">Головна</a>
                         </li>
@@ -25,7 +31,7 @@
                                 <li class="relative hover-li">
                                     <a href="#" class="a-houses">Таунхауси</a>
                                     <ul class="hidden relative ul-header radius">
-                                        <li><a href="#" class="inside">Елітні будки</a> </li>
+                                        <li><a href="#" class="inside">Елітні будки</a></li>
                                         <li><a href="#" class="inside">Для чіхуахуа</a></li>
                                         <li><a href="#" class="inside">Вольєри</a></li>
                                         <li><a href="#" class="inside">Халабуди</a></li>
@@ -66,8 +72,9 @@
                         <li>
                             <a href="contacts.html" class="a-header">Контакти</a>
                         </li>
+                        <li class="cancel">x</li>
                     </ul>
-                </nav>
+                </div>
                 <ul class="ulka flex-between photoss">
                     <li><a href="#">
                             <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 19" width="11"
@@ -260,3 +267,23 @@
     </footer>
 </body>
 </html>
+
+<script>
+    const dark = document.querySelector(".dark-bgc"),
+      burger = document.querySelector(".burger"),
+      menu = document.querySelector(".menu"),
+      cancel = document.querySelector(".cancel")
+
+    burger.addEventListener("click", function() {
+    menu.style.left = "0";
+    dark.style.display = "block"
+    })
+    function cancelBurger() {
+    menu.style.left = "-200%";
+    dark.style.display = "none"
+    }
+    cancel.addEventListener("click", cancelBurger)
+    dark.addEventListener("click", cancelBurger)
+
+
+</script>
