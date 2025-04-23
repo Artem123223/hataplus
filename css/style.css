@@ -1280,7 +1280,7 @@ form > p {
         display: block;
     }
 }
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 768px) {
     .flex-between {
         display: flex;
         justify-content: space-between;
@@ -1299,6 +1299,7 @@ form > p {
     main > div:nth-child(2) {
         overflow: auto;
     }
+    
 }
 @media screen and (min-width: 900px) {
     .email:before {
@@ -1343,12 +1344,20 @@ form > p {
     .web-forms {
         width: 100%;
     }
+    aside {
+        padding-bottom: 25rem;
+    }
+    .main-text,
+    .text {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 @media screen and (min-width: 961px) {
     .wrapper-main {
         padding: 36rem 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: center;
     }
 }
@@ -1395,7 +1404,24 @@ form > p {
     .flex-between {
         display: flex;
         justify-content: space-between;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+    }
+    .reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .aside-menu {
+        max-width: 100%;
+    }
+    .web-forms {
+        gap: 27px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .flex-between {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .reverse {
         display: flex;
